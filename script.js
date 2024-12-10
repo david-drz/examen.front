@@ -7,7 +7,7 @@ document.getElementById("caculadora").addEventListener("submit", async function(
     const operation = document.getElementById("operation").value;
 
     // Construir la URL de la API según la operación
-    const url = `http://127.0.0.1:8001/${operation}?num1=${num1}&num2=${num2}`;
+    const url = `http://localhost:8001/${operation}?num1=${num1}&num2=${num2}`;
 
     try {
         // Enviar la solicitud a la API
